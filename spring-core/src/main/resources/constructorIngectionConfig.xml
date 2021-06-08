@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd">
+
+
+    <bean class="com.springcore.constructor.injection.Certification" name="cert">
+        <constructor-arg value="Scjp"/>
+    </bean>
+
+    <bean class="com.springcore.constructor.injection.Person" name="personA" >
+        <constructor-arg name="personId" value="12"/>
+        <constructor-arg name="personName" value="Shekhar"/>
+        <constructor-arg ref="cert"/>
+    </bean>
+
+
+    <bean class="com.springcore.constructor.injection.Person" name="personB" >
+        <constructor-arg value="12"/>
+        <constructor-arg value="Shekhar"/>
+        <constructor-arg ref="cert"/>
+    </bean>
+
+    <!-- Mention type to resolve ambiguity-->
+    <bean class="com.springcore.constructor.injection.Person" name="personC" >
+        <constructor-arg value="12" type="int"/>
+        <constructor-arg value="Shekhar" type="String"/>
+        <constructor-arg ref="cert"/>
+        <constructor-arg>
+            <list>
+                <value>7387798939</value>
+                <value>7387798979</value>
+                <value>7387798929</value>
+            </list>
+        </constructor-arg>
+    </bean>
+
+    <bean class="com.springcore.constructor.injection.MathUtil" name="mathUtil">
+        <constructor-arg name="a" value="12" type="int"/>
+        <constructor-arg name="b" value="12" type="int"/>
+    </bean>
+
+
+</beans>

@@ -1,0 +1,62 @@
+com/springcore/primitive/Student.java
+ com.springcore.primitive.Student
+com/springcore/collections/Employee.java
+ com.springcore.collections.Employee
+com/springcore/primitive/App.java
+ com.springcore.primitive.App
+com/springcore/collections/EmployeeApp.java
+ com.springcore.collections.EmployeeApp
+com/springcore/ref/A.java
+ com.springcore.ref.A
+com/springcore/ref/B.java
+ com.springcore.ref.B
+com/springcore/ref/ReferenceApp.java
+ com.springcore.ref.ReferenceApp
+com/springcore/constructor/injection/Certification.java
+ com.springcore.constructor.injection.Certification
+com/springcore/constructor/injection/Person.java
+ com.springcore.constructor.injection.Person
+com/springcore/constructor/injection/MathUtil.java
+ com.springcore.constructor.injection.MathUtil
+com/springcore/constructor/injection/PersonApp.java
+ com.springcore.constructor.injection.PersonApp
+com/springcore/lifecycle/Samosa.java
+ com.springcore.lifecycle.Samosa
+com/springcore/lifecycle/Pepsi.java
+ com.springcore.lifecycle.Pepsi
+com/springcore/lifecycle/Tea.java
+ com.springcore.lifecycle.Tea
+com/springcore/lifecycle/App.java
+ com.springcore.lifecycle.App
+com/springcore/auto/wire/Employee.java
+ com.springcore.auto.wire.Employee
+com/springcore/auto/wire/Address.java
+ com.springcore.auto.wire.Address
+com/springcore/auto/wire/AutoWireApp.java
+ com.springcore.auto.wire.AutoWireApp
+com/springcore/auto/wire/annotation/Address.java
+ com.springcore.auto.wire.annotation.Address
+com/springcore/auto/wire/annotation/Employee.java
+ com.springcore.auto.wire.annotation.Employee
+com/springcore/auto/wire/annotation/AutoWireApp.java
+ com.springcore.auto.wire.annotation.AutoWireApp
+com/springcore/standalone/collections/Person.java
+ com.springcore.standalone.collections.Person
+com/springcore/standalone/collections/App.java
+ com.springcore.standalone.collections.App
+com/springcore/stereotype/App.java
+ com.springcore.stereotype.App
+com/springcore/stereotype/Student.java
+ com.springcore.stereotype.Student
+com/springcore/spel/Salary.java
+ com.springcore.spel.Salary
+com/springcore/spel/App.java
+ com.springcore.spel.App
+com/springcore/javaconfig/JavaConfig.java
+ com.springcore.javaconfig.JavaConfig
+com/springcore/javaconfig/App.java
+ com.springcore.javaconfig.App
+com/springcore/javaconfig/Samosa.java
+ com.springcore.javaconfig.Samosa
+com/springcore/javaconfig/Student.java
+ com.springcore.javaconfig.Student
